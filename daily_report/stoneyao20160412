@@ -1,0 +1,9 @@
+The major thing of today is to deploy the buid-essential of Android 4.4 kitkat,the main thing to do is to deploy JDK and SSH. 
+I ask it ok or not that the system have only the root directory,Zhou  responses that it isn't good because the system is 
+reinstalled in case. Its datas would  all be lost !And I have to reinstall it again. It is favourably reinstalled. The most 
+difficult thing of today is to find id_rsa.pub,Peopele on the internet say the file is in the /root catalog,but I am fail to 
+find it although I have used many methods!  I swap my thought that many materials indicate that the filemust be in the SSH ,
+and I press cd ~/.ssh,after entering the SSH, pressing  vi id_rsa.pub,and happily finding the content of the file! Following ,
+to press  ctrl+shift+c  to copy the content in the terminal.And then press ctrl+v in the SSH setting of github.Test it and 
+find it has been setted ok ! I try to understand the using of vi, press  vi id_rsa.pub  in the /home. Find it is a new file 
+other than the original file.and the new file is not the file I need! And I feel it makes me  deeper understand the using of vi!
