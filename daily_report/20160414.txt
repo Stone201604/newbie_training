@@ -1,4 +1,5 @@
-     Today's main work is Linux commonly used commands, this process has found that these days did not pay attention to some of the commands, such as:
+     Today's main work is Linux commonly used commands, this process has found 
+that these days did not pay attention to some of the commands, such as:
 PWD  displays the current directory
 Head, tail display file header, tail content
 Ctrl+alt+F1/F5  command line full screen mode
@@ -8,9 +9,14 @@ df  view disk size -h df  with unit display disk information
 ifconfig  view network situation
 ping  test network connectivity
 netstat  display network status information / / no space between net and stat
-man command will not be used, to find a man such as: LS //man man is a view to help document the command
+man command will not be used, to find a man such as: LS //man man is a view to
+ help document the command
 clear //clear screen
 shutdown
-Need to enter the root user //sudo -s   -r  restart//shutdown -r now immediately restart; shutdown -r +3 //shutdown after three minutes  and then restart 
-Now  immediately shut down now //shutdown is unable to fully shut down the power of the key light, the screen also lit!
-Note: the interrupt command, after the execution of the command (if not to the background), you can use the ctrl+c to suspend the order, where the press will cancel the shutdown.
+Need to enter the root user //sudo -s   -r restart//shutdown -r now immediately
+restart; shutdown -r +3 //shutdown after three minutes  and then restart 
+Now  immediately shut down now //shutdown is unable to fully shut down the power
+of the key light, the screen also lit!
+Note: the interrupt command, after the execution of the command (if not to the
+background), you can use the ctrl+c to suspend the order, where the press will 
+cancel the shutdown.
