@@ -1,0 +1,23 @@
+Today's main work has two points:
+The first,  upload the daily_report to the GitHub newbie_training/daily_report
+ by the ubuntu system ,The major problem encountered in this is that the first
+ is not familiar with the instruction.
+git add + file  name to join the file
+git commit     submit file
+git push     submitted to GitHub
+git clone https://github.com/ file.git    clone git code to the local
+
+The second, download the TC75 code to the local
+The more depressed is in accordance with the previously configured SSH ,
+ download and run always tip requires a password, recreate and configure a SSH
+ password, enter the password or tip SSH permission denied please try again;
+ later according to the online methods.
+Modify /etc/ssh/sshd-config file.
+Modify the  PermitRootLogin no to yes
+Yes PubkeyAuthentication is modified to no
+AuthorizedKeysFile.Ssh/authorized_keys front with # shield,
+No PasswordAuthentication is modified to yes
+It is also fail after setting up with upper methods.
+Finally restart the computer, and then enter ¡°repo init -u ssh://nts01.wistron.
+com/qp200-wwan/platform/manifest.git-b kk-release-3.0 -m wistron-kk-release-3.0.xml
+And It finally succeeded, into the download mode!
