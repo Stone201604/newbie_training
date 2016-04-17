@@ -1,12 +1,12 @@
-  The most important thing of today is that installing Ubuntu14.04.1,after using
-the easybcd install the system by HDD,and need to install again after restarting.
-searching about it in the internet,many mathod,but I don't find the suitable 
-solution;so I  decide to try to install it by USB flash disk,but I don't  find 
-the starter of the USB flash disk although I have installed neogrub.Jiang sir
- comes in time ,pressing F12 during starting,and then find the USB flash disk 
+  The most important thing of today is to install Ubuntu14.04.1 system,using
+the easybcd installs the system by HDD,and it needs to install again after 
+restarting.searching about it in the internet,many methods,but I don't find the 
+suitable solution;so I decide to try to install it by USB flash disk,but I don't
+find the starter of the USB flash disk although I have installed neogrub.Jiang sir
+comes in time ,pressing F12 during starting,and then find the USB flash disk 
 in the BIOS.Installing the system,but I find it boring that  it also needs to 
 install again after restarting.unhappy a moment,I have to solve it anyway.
- I find a solution that it need to add starter in the easybcd. Trying it! 
+ I find a solution that it needs to add starter in the easybcd. Trying it! 
 And enter the win10 at first,adding starter in the easybcd,and then restart.
-I am happy because that I don't catch the sight of  installing ubuntu.click it
+I am very happy because that I don't catch the sight of  installing ubuntu.click it
  to enter the ubuntu system! And I feel proud in the moment! 

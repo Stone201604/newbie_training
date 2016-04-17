@@ -1,11 +1,11 @@
      The major thing of today is to amend system.img,amend the date of the buid
  to be 20160413.at first,it needs to install adb and fastboot.it is worth to say
- in this time that it needs to make a new file of 51-android.rules.i think it 
-may be randomly named so that i names it 44-android.rules. In the moment i make
+ in this time that it needs to make a new file of 51-android.rules.I think it 
+may be randomly named so that I name it 44-android.rules. In the moment I make
  the test by using my own mobile phone,and it is also failing. Zhou says it may
- be the name's issue. And it is really successful after i change the name to be
+ be the name's issue. And it is really successful after I change the name to be
 51-android.rules!the adb and fastboot are perfectly installed at last.there are
-many paths about the files,and it is slowly added by one and one, i find a better
+many paths about the files,and it is slowly added by one and one, I find a better
 method that it drags the related file to the terminal after pressing cd+space,
-and then pressing the enter.Today is a full day!
+and then press the enter.Today is a full day!
 
