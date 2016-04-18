@@ -1,0 +1,23 @@
+   Today, in the forenoon, I install the win7 system to my third notebook computer.
+in the first way, use the usb flash dish to install  the win7 by the UltralSO 
+production , but to enter the BIOS and into the usb disk to start after click 
+on any one option are unable to continue, most of them are similar that it cannot
+load file and marks failing  tips, some people on the Internet have said may be
+U disk boot file problems, said the image file is not complete and lack of starting
+the first problem; I think may be U disk boot file problems, then download the 
+pocket U disk software used to remake U disk boot disk, then according to the
+corresponding tutorial take ran successfully !
+In the afternoon, there was a question about the script before I noticed it:
+First, the script needs to be executed
+chmod u+x file.sh 
+There are three ways to execute scripts:
+1 ./file.sh
+Features: open the child process of the bash to perform, which is open additional 
+processes to perform and does not affect the original process variables,the 
+configuration and so on.
+2  bash file.sh
+Features: the same as./file.sh
+3 source file.sh or .file.sh.
+Features: execute the script in the original bash process.
+The third methods are mainly used in the script to switch the user su, switch
+directory cd and other commands.The command source is the same as . !
