@@ -1,0 +1,14 @@
+   Today I continue to configure the environment of preburn_image TC75, but the 
+previous operation on the Ubuntu system has to operate on the win7. Then stuck in
+the driver installation here, original feel very basic things, out of the question
+colleagues similar SOP is useless, the SOP is mainly speak to install the 
+corresponding certificate, in the five corresponding driver installation, so after
+a good deal or failure. This problem remains to be solved, the first use of a 
+colleague's win7 computer to continue to configure and achieve the purpose of 
+making factory_image.bin!
+   In the image directory generation factoryimage.bin file in which the process I 
+find the original in the revision of the rawprogram0.xml I modified three should 
+not modify the file name, the three original are recovery.img, boot.img, 
+userdata.img; I change them into the recovery_test1.img, boot_test1.img 
+userdata_test1.img. Led to the factoryimage.bin can not be generated, it successes
+after they are changed back!

@@ -1,0 +1,26 @@
+    Today,has two points. The first is to solve the problem of windows drive that
+ can not be connected to the TC75 system and can not be connected to the win7
+ system yesterday;
+ The second is to solve the problem using of task for windows. 
+
+    First ,the problem of TC75 driver:
+ 
+    Firstly install certificatein accordance with the SOP, driver software according
+to the corresponding installation interface. still failure.
+    Install the corresponding drive is connected by the Brush Machine Master, but 
+when after the execution of commands it does not connect, the computer can not 
+connect TC75, corresponding to the display driving the yellow exclamation mark! 
+Description the Brush Machine Master loaded drive can only use their own!
+    With the Driver of Life, after networking, the TC75 will be plugged into the
+ computer, and then in the peripheral interface, the installation of "mobile hard
+ disk Composite Device -USB" after the driver has been found to be able to use.
+
+    The second is the problem of useing the task for windows :
+In task manager edit click inside the remind "endpoint mapper no more endpoints available"
+ 
+    The solution is: to open the firewall
+    Specific operation: win+R----press type services.msc,and then press enter into
+ -----  in open service to find the windows firewall , disable the change to manual, 
+.and start the service!
+
+    This problem had been solved.
