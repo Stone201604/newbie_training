@@ -1,0 +1,17 @@
+    The main content of today is to learn shell script:
+Format:
+1.the first line of #! /bin/bash    state what the shell name of using the script;
+2,.program description includes the description of the script content and function,
+ version information, author, date of establishment and so on;
+3. main environmental variables
+4. the main part of the program
+5.inform the implementation of results
+In shell script operation:
+Reading, toltal= ($space (spaces $firstnu*$secnu spaces))   display and unexpected
+ symbols. (near grammar errors;
+Changed to toltal= ($(space$firstnu*$secnua space)) running the show, 23X2: command
+ not found
+Changed to toltal= ($(($firstnu*$secnu)) The result of 23X2 operation display
+ is ===> 46.
+       This obviously reading legend feel that space, but up and running is not so
+ return a responsibility, this shows that I still have to practice!
