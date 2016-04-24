@@ -1,7 +1,7 @@
     The main content of today is to learn shell script:
 Format:
-1.the first line of #! /bin/bash    state what the shell name of using the script;
-2,.program description includes the description of the script content and function,
+1.the first line :#! /bin/bash    state what the shell name of using the script;
+2.program description ,includes the description of the script content and function,
  version information, author, date of establishment and so on;
 3. main environmental variables
 4. the main part of the program
