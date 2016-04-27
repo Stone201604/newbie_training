@@ -1,0 +1,11 @@
+  Due to the PPT that I finished yesterday,there were some flaws, so according to
+Jiang¡¯s  suggestions made some format and focused on some typesetting. In 
+this process, I had reviewed these commands again, the following is where I
+ did not pay attention to:
+   ~ represents your ¡®/home/ user name¡¯ directory ,if your username is x,
+ then ~ /is /home/x/. is representative of the directory itself, but the 
+general can not write, so cd ~ /. And cd ~ and cd ~ / effect is same .however,
+Behind the stuff is also a problem, in the file name of the first part, on 
+behalf of the a hidden files ~/.local is the path of a. Local folder under 
+your home directory, and from ¡¯. ¡® can be seen, this is a drink hidden files,
+ if you don't use ls -a, general ls is unable to see.
