@@ -1,0 +1,15 @@
+
+   Consecutive 10 days sent daily_report to github, all used on the win8 github
+ for windows. Today I tried a Linux system to send the development plan that
+ had not yet been uploaded on github . Found very interesting places: can be
+ carried out smoothly git add and git commit command, after enter the git push
+ command ,tooltip updated can not effect the original update update in another
+ local library, the Linux native libraries without the update file. So according
+ to the prompt git pull and download the new_bie training/daily_report report of
+ github, all the updated files downloaded to the Linux computer local disk, and 
+then enter the git commit get success! Then git push the file successfully
+ uploaded to github! 
+    Enter the server, input\\10.42.100.15\sw_rd in windows system,  input 
+smb://10.42.100.15/sw_rd in  linux system.Because in the back of the rd plus $, 
+always say no permissions! Old colleagues remember the original need to add $, 
+and it spent one or two hours.
