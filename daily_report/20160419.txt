@@ -1,0 +1,31 @@
+   Today's main job is configuring the compiler TC75image environment in which to 
+deepen the understanding of the cp directive and mv directive .Because it used
+ to create folders, files, when naming errors need to modify the file name to
+ use mv. This process also often needs to use copy and paste.
+cp
+Syntax: cp [option] source file or directory object file or directory
+Description: the command to copy the specified source files to the target file
+or to copy multiple source files to the destination directory.
+cp -i file1 File2 
+Copy the document File2 into file1. - I for prompt confirmation.
+cp file1 dir1 
+Copy the document dir1 to the directory file1, the file name is still file1.
+cp  /tmp/file1.
+Copy the directory file1 under the document /tmp to the current directory, the
+ file name is still file1.
+cp /tmp/file1 file2 
+The directory file1 under the document /tmp under the current directory, the 
+file name is file2
+-r dir1 dir2 
+( recursive copy)
+Copy entire directory. If directory dir2 exists in the directory dir1, and all
+files and subdirectories, copied to the directory dir2. New directory name for
+dir1. if directory dir2 does not exist in the dir1, and all files and 
+subdirectories, copy directory dir2.
+mv
+mv a.txt b.txt 
+Rename b.txt to a.txt
+mv a.txt /mnt/b.txt 
+Rename the b.txt to a.txt while changing the path to /mnt/
+mv a.txt /opt/ftp/ 
+Cut a.txt to /opt/ftp/

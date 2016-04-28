@@ -1,0 +1,9 @@
+   According to ¡°the continuous integration SOP ¡° began to configure the 
+environment ,in the configuration of the Hudson, mentioned in the SOP, use 
+JDK1.6, Hudson versionis 2.2. Other versions had not been tested. However 
+I get points to download only hudson3.3.3, according to the SOP installation
+ modification of some places found after next the steps  error! Found it in
+ the internet with the error information of key words , found that people
+ encountered similar problems, the solution is to change the JDK1.6  into
+ the version 1.7.  after installing Jdk1.7 ,restart the hudson and  it 
+suceed lastly!
