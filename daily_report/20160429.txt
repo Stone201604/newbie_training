@@ -1,0 +1,8 @@
+      In preparation to realize the result of 1+2+... + 100 found:
+      When sh11.sh input echo "the result of'1+2+... +100'is ==> $s" 
+compile and run the terminal display    the result of '1+2+... Is +100' ==> 5050. 
+When sh11.sh input echo "the result of "1+2+... + 100" is ==> $s ", compiler 
+running terminal display the result of 1+2+... + 100 is ==> 5050. Just let me
+ see 'and " in the script that statement inside the difference!
+      Today is a full day ,and I had not only studied the shell script but also
+ I had configured the hudson!
