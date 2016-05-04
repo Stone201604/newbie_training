@@ -1,0 +1,16 @@
+     Today, the main thing is to reinstall the windows system, and then
+ re-configure the TC70 driver!
+Install windows:
+     Because the plan to install the official version of the official, the online
+ is not good to find. Later, ginger help to find a version of the official version
+ of the win7 version of the cd. Immediately installed on the computer, the first 
+set DVD on the BIOS start, and then start the installation. However, I found that 
+the re start to enter the error screen, the mother said the need to reinstall the
+ system! Second installed in the system to determine the installation disk and 
+then go back but found not to be installed, and asked the mother did not find a
+ solution. Then simply use U disk to reinstall the win7. Installed after the good.
+Install TC70CR drive:
+     Entered the installation TC70CR drive, in accordance with the SOP, to install
+ the certificate, and then let the system go into test mode. After the plug after 
+TC70CR in device manager configuration driven, this after more than two hours 
+before! However, it is small to have a sense of achievement!

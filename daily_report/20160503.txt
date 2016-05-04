@@ -1,0 +1,13 @@
+
+Things that are in trouble today:
+     Download SSH, permission connection is always prompted denied please, try again.
+ TC70CR originally thought that this is the SSH configuration problem, so once again
+ configured ssh. Well configured, or can not be under the TC70CR! Thought before 
+also downloaded qp200, so try again, can under, which makes it very strange ah!
+ But downloading TC70CR is always a failure! Later, Zhouzhou configured accounts
+ to the SSH, Download TC70CR was found to be permission denied! However, Zhouzhou
+ account in his notebook can download TC70CR, indicating that his account 
+permissions problem does not exist! This feeling no language ah. After Zhouzhou
+ to modify a lot of places, he said almost all with his computer on SSH configured
+ exactly the same, after spending three hours after getting up at last can download
+ the TC70CR codes!
