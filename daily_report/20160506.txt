@@ -1,0 +1,19 @@
+      In operation today continues to generate TC70CR factoryimage.bin met the 
+problem, it was still drive problems, although the day before yesterday drive
+ would have been installed. However, it is not good again! And this time even
+ the mouse USB are prompted to connect to the mouse driver installation is not
+ successful! It's almost silent! May be poisoned, and then reinstall the system,
+ the use of the driver wizard loaded with the basic computer driven, followed 
+by SOP installed TC70CR drive!it succeed after the installation had been completed. 
+      This afternoon and evening in the shop to deal with a problem, Scott (TE )
+said TC70CR brush this version of the latest image, connecting the new machine,
+ the installation of the driver when installed directly damaged! That is, the 
+drive does not match the same time can not be installed at the other driver! 
+Strange that those who have installed TC70GA or TC70CR before the version of 
+the computer plug can be identified and read out. Later I asked him how to 
+install the driver, he said directly to find the directory before Google_usb
+ directory  to let it find their own installation, and I remember that I have
+ had such a installation, often fail! SOP operation is to choose to install 
+the google-usb directory, so find a four NB that did not install the Android
+ system to drive the computer, according to SOP installation can be installed 
+directly. And it verified the original conjecture!

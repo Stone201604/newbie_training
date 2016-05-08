@@ -1,0 +1,16 @@
+     Today's main task is to understand and learn a Windows Script, the script
+ in the pre_burn image, the effect is fast batch the image will be burned to 
+the TC70CR! In the process of learning the script I summed up the part of the
+ Windows Script knowledge!
+     About Windows script
+     In a broad sense, Windows script is a relatively large concept, it includes
+ Jscript, VBScript, Windows scripting host, Windows scripting components, remote
+ scripting and Script controls, and other techniques.
+     In a narrow sense, the Windows script is what we usually say. Here the Windows
+ Script also refers to this concept, the following such as no special instructions
+ are referred to this concept.Windows Script is actually a text file, called the 
+suffix ". bat", can also be ". cmd" (. bat is DOS batch files and. cmd is  a batch
+ processing file of NT kernel command line environment). Most of the content of this
+ text file is actually a line of DOS commands, you can use any text editing tools to
+ create and modify. In addition to the DOS command, the Windows script has some of
+ its own private commands and syntax!
