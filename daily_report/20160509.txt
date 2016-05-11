@@ -1,0 +1,7 @@
+    I found some problems in the operation process of generating factoryimage.bin:
+    Thefirst: after running the command fastboot erase sbl1 the shutdown state can 
+be connected to the Qualcomm HS-USB Diagnostics 9006
+Before erasing sbl1 directly shutdown the phone, the display of the MTU device,
+    it displayed the driver was not successful!
+The second: during running emmcswdownload.exe -F factoryimage.bin ,you must run 
+CMD with administrator privileges, or cause errors, can not be download.

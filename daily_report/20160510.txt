@@ -1,0 +1,13 @@
+  Today I had solved the problem that TC70GA machine could not start;
+  At the beginning ,Zhouzhou according to the error comment out something. connected 
+to find the image board or the machine can not burn. Later, I think it might be 
+short of the four _test . Back in the office after, put the four _test to the
+  public server, and then into the workshop will put the four test into the computer
+ in order to burn the image folder, again burning to the board, in the process of
+ the operation showed no any errors, burn a good found still can not boot. I felt
+ it may be the board hardware problems, and suggested her change a good TC70GA 
+board. Then, I used the command fastboot erase sbl1 erase sbl1, then I would make
+ this package image burned into. If it could burn in and could boot ,It would prove
+ our software package had not any problem. After doing this  found in this board 
+was to burn the boot! So, our software package had no problem, the problem appeared
+ on the hardware!
