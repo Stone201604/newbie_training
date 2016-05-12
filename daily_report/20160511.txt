@@ -1,0 +1,18 @@
+    Today I burned the TC70CR again, before encountered a problem: using the 
+original TC70CRimage that put in Jimmy PC. The FDRROOT that done out on my 
+windows always only had 104M, and the size of normal made out of TC70CR had 521M.
+ Could be sure to be a problem. And comparison of various,using the factoryimage.bin
+ that had been donein jimmyPC . Then I made Factoryimage_7521.bin on my windows phone.
+using the Factoryimage_7521.bin generate the size of FDRROOT was 521M, that proved 
+my task software configuration and operation was no problem. Then the problem was
+ generated in the factoryimage.bin. QPST, EMMC on the operation were performed in
+ accordance with SOP, then the operation does not exist, only maybe the problem of 
+the package IMAGE itself . So got the original package image , while deleted  the
+ four _test files in it, on my linuxPC to do it again. Do a good job after the
+ operation on the windowsPC again, the size of the FDRROOT had 521M, from this
+ point ,It  was successful, and it could be sure that I got IMAGE on jimmyPC was
+ not TC70CR!
+     There was also found a little , factoryimage.bin generated in the jimmyPC had
+ 11G, and in my windows pc only 7.34G and illustrate different computers, although
+ qpst software was installed in the same, the generated file size had some 
+differences!
