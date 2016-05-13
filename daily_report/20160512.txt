@@ -1,0 +1,18 @@
+    Today I red the windows batch processing script, the new findings were as
+follows, the need to pay attention to:
+    1, @echo off
+    Is not in the DOS program, but in the DOS batch processing. DOS of the year,
+ all operations are used keyboard command to complete, when every time you enter
+ the same command can put so many commands save for a batch processing, from then
+ on, as long as the operation of the batch processing, equivalent to hit a few
+ lines, dozens of the command line.
+    DOS in the run batch processing, will in turn execute each command in the 
+batch, and will display on the monitor, if you don't want to let them show, you
+ can add a "echo  off".Of course, the "echo off" is also an order, it will show
+ itself, if not even this display, add in front of a "@".
+ 
+    2, /b exit
+    xit the current batch script
+ 
+    3, rd     
+    another way is rmdir from ReMakeDirectory
