@@ -1,0 +1,28 @@
+      Single quotes and double quotes 
+      Single quotes and double quotes the biggest difference is that double quotes
+ can still keep the content of variables, but only inside the single quotes can be
+ General characters, and no special symbols. We use the following example to illustrate:
+ if you define a variable,Name=VBird, now want to name the content of this variable
+ defines myname and display the VBird  its me  .How do you set up the content?
+
+      [root@linux ~]# name=VBird 
+      [root@linux ~]# echo $name 
+       VBird 
+      [root@linux ~]# myname="$name its me" 
+      [root@linux ~]# echo $myname 
+       VBird its me 
+      [root@linux ~]# myname='$name its me' 
+      [root@linux ~]# echo $myname 
+       $name its me 
+      Did you find out? you 're right£¡ Using single quotes, then $name will lose the
+ original variable content, The general character of the display type! Special care 
+must be required here!
+      The backtick (` `)
+      Command substitution is the shell that can insert a command's standard output
+ in a command line. Shell there are two methods for command substitution: the shell
+ command with the anti quotes or $(...) structure, including the $(...) format is 
+supported by the POSIX standard, but also conducive to nesting.
+      # echo The date and time is `date` 
+      The date and time is  5ÔÂ 15 10:10:35 2016
+      # echo Your current working directory is $(pwd) 
+      Your current working directory is /home/howard/script
