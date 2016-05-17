@@ -1,0 +1,14 @@
+    Today I started to translate a windows.bat into the Linux script, so the first
+general understanding of the difference between the two:
+    Batch processing is used to automatically execute commands in batches to 
+implement specific actions.
+   Windows is commonly used MS-DOS commands.Linux commonly used batch is a shell
+ script, shell in the Linux has a variety of types, which are the most commonly 
+used Bourne shell(SH),C shell (CSH) and Korn shell(KSH) .
+   To learn how to write a batch script, you must first be familiar with the 
+command. Such as: windows to be familiar with the MS-DOS command.Linux to be 
+familiar with the commonly used linux commands.To a more advanced when you can
+ use Perl, python, Java, PHP and other languages to achieve the function of the
+ regular command can not be achieved.
+   In Windows batch processing is.bat and.cmd for the extension of the file.And
+ Linux is often.sh, and some do not have the extension of the file.
