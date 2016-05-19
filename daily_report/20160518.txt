@@ -1,0 +1,12 @@
+    Today, I practiced and reinforced the understanding of the usage of the 
+source command:
+source FileName
+    Function: reads and executes commands in FileName in the current bash environment.
+Note: this command is usually used as a command.
+    .bash_rc source and.Bash_rc are equivalent.
+Note: the difference between the shell command and the scripts source is:
+  Source in the current bash environment to execute the command, and scripts is 
+to start a sub shell to execute the command. Such if the set environment variables
+ (or alias and so on) the write commands in scripts, it will only affect the shell, 
+can not change the current bash, so through the file (command line) to set 
+environment variables, use the source command.
