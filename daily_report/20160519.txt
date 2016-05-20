@@ -1,0 +1,51 @@
+     Today I have  understood furtherly about the use of function in linux:
+Shell Linux can be user-defined function, and then in the shell script can be 
+easily called. Here's the way it is defined, and the calls that need to be 
+paid attention to.
+     1.define function
+     Grammer:
+ [ function ] funname [()]
+{
+action;
+[return int;]
+}
+Explain:
+1.1, you can bring fun function () definition, also can directly fun () definition,
+ without any parameters.
+1.2, parameters return, you can display the plus: return return, if not, will be 
+the last command to run the result, as the return value. Return followed by numerical
+ n(0-255).
+      2.Example:
+testfun1.sh
+
+#!/bin/sh
+ 
+ fSum 3 2;
+ function fSum()
+ {
+   echo $1,$2;
+   return $(($1+$2));
+ }
+ fSum 5 7;
+ total=$(fSum 3 2);
+ echo $total,$?;
+ 
+sh testfun1.sh
+testfun1.sh: line 3: fSum: command not found
+5,7
+3,2
+1
+5
+      From the above example, we can get some conclusions:
+2.1, must be declared before a function, the function call, the shell script is 
+run by. Not as pre compiled as any other language. A function must be declared 
+before using the function.
+2.2, total=$(fSum 32); through this call method, we know, in the shell in a single
+ bracket inside, can be: the command statement. Thus, we can define a function in
+ shell as a new command, and it is a command, so the various input parameters are
+ separated by spaces. Once, the command which can get the parameter method can 
+pass: $0... $n get. $0 represents the function itself.
+2.3, the return value of the function, can only be obtained through the $system 
+variables,null  directly got by =. In fact, we follow the above one to understand
+ that the function is a command, in the shell to get the command return value,
+ are required to obtain it.
