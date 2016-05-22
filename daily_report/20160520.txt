@@ -1,0 +1,20 @@
+
+     Today I toughed a problem.
+  Workshop of 50 pieces of the new version of OS QP200 with WWAN driven machines
+ for RF test, of which there are 8 pcs with WWAN driven machine test unable to pass.
+ 4800 of mistakes, with the GA driven machine 8 pcs were able to pass. However, the
+ drive the need for other two minutes can be identified to the USB.
+    After a lot of validation, the first ,for GA drive read too long:
+    In the original machine, after unloading the corresponding drive in accordance 
+with the SOP reload, reading is still needed 2min;
+    In a new machine is not installed on the new machine in accordance with the SOP
+ reinstall, read around 28s, with 4pcs verification are so;
+    Explain the problem of driving delay in the installation of the drive!
+The second: in view of these 8 in the WWAN driver can quickly read but all appear 
+in 4800 of the situation
+    We took 4 in the original GA driver test, all passed;
+    Then each piece on the WWAN driven machine, after the first identification and 
+waited 2min,all pass; and then directly to the factory after the direct test, are 
+4800; finally in recognition and waited for 2min test, and all pass.
+    We can identify the problem in these two minutes, however, the deep-seated 
+problems still need to be analyzed!
