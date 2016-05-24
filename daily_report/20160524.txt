@@ -1,0 +1,12 @@
+
+      Today and again to verify the results of the experiment QP200-GA with RFTE 
+Adam Cao:
+      Use Taipei SW requirements command: adb shell getprop dev.bootcomplete , test
+ time: starting from the supply of electricity
+     Test for 6pcs about 15nm, There is 1 pcs that including 40s around to read 1,
+ that is, to confirm the open WiFi, the film test three times were about 40s. After 
+according to the 40s RF test. Result: pass;
+     There are 4 pcs  in the 65s read to 1, followed by RF test 64S start, the
+ results PASS;
+     There is 1pcs in the 95s read to 1, the beginning of RF test after 95s,the 
+result PASS.
