@@ -1,0 +1,9 @@
+
+    Today's work is mainly about the issue of QP200GA last Friday, for this problem, 
+probably know the problem is to appear in two minutes. Today Taipei there asked me 
+to help catch the log, used the command adb logcat - v time > log.txt. afternoon, 
+by PM organization conference calls, meeting with people think that is a problem 
+in the OS and start an ADB, phone also start, Bluetooth, WiFi to start, in the 
+start-up process takes time, for QP200GA may need 60 to 80s, so proposed short-term 
+measures, after the power delay 80s test-retest RF, but this was opposition from the
+ factory representative, or asked to solve the fundamental problem.
