@@ -1,0 +1,11 @@
+     Today continued to solve the problem of QP200GA 4800:
+     Some people judged it was the start of WiFi, from the power supply to start to
+ complete the required time was too long, it need to grab this time by using the 
+commands: adb wait-for-device  
+ adb shell getprop dev.bootcomplete 
+     A total of 6pcs, found that about 4 in 65s, 1 in 95s, one in 40s. and grab
+ the logs by using the commands:
+   adb logcat -v time; adb shell cat /proc/kmsg 
+     At the beginning of the test, that grab log need to restart the computer, 
+so did these and it took much time. Later found that grab log is not necessary 
+to restart the computer, because it was to grab the phone log!
