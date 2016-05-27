@@ -1,0 +1,11 @@
+    Today continued to solve the problem of QP200GA 4800:
+    Taipei SW rebuilt the userdata.img,system.img and boot.img, and then burned 
+it into two pieces of 15nmEMMC, per pcs tested 4 times, found that it was not 
+stable, but most of the time, or in the 65s. And  then burned it to two pieces 
+of 19nmEMMC, then each of the four tests and found it almost stabled in the 55s.
+ However, it was only the 40s when 19nmEMMC installed 19nmIMG, indicating that 
+this version of img was indeed problematic.
+    Today, the operation of the computer because it did not need to restart the
+ computer, so the test and LOG time spent less than the first time!  this test 
+data was posted on the corresponding board, I felt it may be useful in the next 
+time!
