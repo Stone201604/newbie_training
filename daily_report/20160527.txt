@@ -1,0 +1,24 @@
+      Here's what we found today.
+      1 power up sequence error resulted in USB service exception. 
+The method of replication: connected to USB, after power on, and then boot
+Phenomenon:
+USB service exception Android will lead to restart several times, each date caused
+ a delay of about 20s.So it will be seen that the delay time is not consistent.
+Solution: 0001-framework-base-service.patch.
+
+       2.AppListHelper several times.
+The phenomenon of: will AppListHelper retry several times, resulting in a delay of 
+about 20 seconds.
+Solution:
+Re-burn Userdata after this phenomenon can not be copied, and therefore suspected
+ to be related to Userdata, it is recommended to confirm the correctness of the 
+production test image.
+Today, please Stone in the production line there will be image re burn (including Userdata),
+ in the log were not found in this phenomenon.
+
+      Deleted the redundant program that related to the USB , then re burn IMG,
+ then burned to the TC70GA test failed MB. Found the original 65s had changed 
+into the 44s, tested two pcs, each four times, stabled in the 44s or so.
+      We basically determined the RF4800 problem has been resolved, the specific
+ is not completely resolved, there is no side effects to wait for the results of
+ the factory small batch test on Saturday.
