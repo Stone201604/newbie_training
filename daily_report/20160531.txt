@@ -1,0 +1,33 @@
+    I understood more about the usage of the linux command ¡®grep¡¯ today.
+1, Linux system grep command is a powerful text search tool, it can use regular 
+expressions to search the text, and the matching line print out. Grep full name
+ is Regular Expression Print Global, said the global regular expression version,
+ which is the use of all users.
+2, format
+Grep[options]
+3, the main parameters
+Main parameters of [options]:
+-c: the number of matched rows only.
+-i: a case insensitive (only applicable to single character).
+-h: query file does not display the file name.
+-l: query file contains only output file name, character.
+-n: display the matching line and line number.
+- s: do not display does not exist or not, the error message text.
+-v: that does not contain all the matching text.
+Main parameters of pattern regular expression:
+Ignore the original meaning of the special characters in regular expressions.
+The start line of a matched regular expression.
+$: the end of the match regular expression.
+\<: from the beginning of regular expression matching line.
+\>: to the end of a regular expression matching line.
+[]: a single character, such as A or [A], to meet the requirements.
+[-]: range, such as [A-Z], that is, A, B, C to Z are in line with the requirements.
+. All individual characters.
+*: there are characters, the length can be 0.
+4, grep command using a simple example:
+$ grep ¡®test¡¯d*
+Displays all the rows that contain test at the beginning of the D.
+$ grep ¡®test¡¯ AA BB CC
+Displayed in AA, BB, CC files in the test match line.
+$ grep ¡®[a-z]\{5\}¡¯ aa
+Displays rows that contain at least 5 successive lowercase characters for each string.

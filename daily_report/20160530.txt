@@ -1,0 +1,8 @@
+      There was a problem that camera sharpness test fail about TC70GA1
+       
+      We found the root cause is the factory image¡¯s?camera UI setting 
+not correct.
+     The sharpness default setting should be 3 not 2.
+     And modified it in the system.img,and then rebuilt it.lastly we need 
+to verify it by the TC70GA1 machine!
+       
