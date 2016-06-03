@@ -1,0 +1,37 @@
+    Today I had deeply understood the usage of the linux command  ¡°read¡±:
+effect
+Read a line from the standard input.
+grammar
+Read [] [] [] [-p -r -s]] -u[n [VariableName Prompt]?
+[VariableName...]
+describe
+The read command reads a line from the standard input, and specifies the value of
+ each field of the input line to the shell variable, using the character in the 
+IFS (internal field separator) variable as the separator. The VariableName parameter 
+specifies the name of the shell variable, and the shell variable gets the value of a
+ field for the input row. Specify values for each field specified by the parameter of
+ the VariableName first shell variables, specified by the parameter of the VariableName
+second shell variables specified values for the second field, and so on, until finally
+ a field. If the standard input lines of the field than corresponding specified by the
+ parameter of the VariableName shell variables for multiple, put all the rest of the 
+field value is assigned to a specified final shell variables. If the number is less
+ than the shell variable, the remaining shell variable is set to an empty string.
+Note: if the VariableName parameter is omitted, the variable REPLY is used as the 
+default variable name.
+The shell variable that is set by the read command affects the current shell execution
+ environment.
+sign
+-p |&amp; (mark name &amp; pipeline) reads the output run by the Korn shell process as input.
+Note: the end of the file in the -p flag causes the process to clear, so another process
+ is generated.
+-r specifies a read command to a \ (backslash) as a part of the input line, and do not 
+put it as a control character.
+-s saves the input as a command in the shell Korn's history file.
+-u [n] to read a number of file description symbol code n as input. File descriptor can
+ be opened with exec KSH built in command. The default value of n is 0, which indicates
+ the keyboard. Value 2 indicates a standard error.
+parameter
+VariableName? Prompt specifies the name of a variable and a prompt to use. When Korn 
+shell is interactive, it will prompt written to standard error, and perform input. 
+Prompt contains more than one word that must be enclosed in single or double quotes.
+VariableName... Specifies one or more variable names separated by spaces.

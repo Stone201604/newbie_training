@@ -1,0 +1,51 @@
+    Today I had deeply understood the usage of the linux command  ¡°find¡±:
+1, the general form of the find command is;
+Pathname -options [-print -exec -ok find...]
+2, find command parameters;
+Find pathname: command to find the directory path. For example, to indicate the 
+current directory, use / to represent the system root directory.
+-print:find command will match the file output to the standard output.
+-exec:find command to match the file to execute the parameters given by the shell
+ command. The corresponding command in the form of'command'{}; note {} and; space 
+between.
+The same -ok: and - exec role, but in a more safe mode to perform the parameters
+ given by the shell command, before executing a command, will give tips, allowing 
+the user to determine whether to perform.
+3, find command options
+-name
+File name lookup.
+-perm
+File permissions to find files.
+-prune
+Use this option to make the find command is not currently in the specified directory
+ to find, if you use the -depth option at the same time, then the find will be ignored
+ by the -prune command.
+-user
+Find files according to the file owner.
+-group
+Search files according to the group of files.
+-n +n -mtime
+In accordance with the time to change the file to find the file, - n said the change
+ in time from now n days, + n said the document change time from now n days ago. The
+ find command also has -atime and -ctime options, but both of them and the time -m option.
+-nogroup
+Finds a file that does not have a valid group, that is, the group that belongs to the
+ file does not exist in the /etc/groups.
+-nouser
+To find a file that is not valid for the owner, that is, the owner of the file does
+ not exist in the /etc/passwd.
+-newer File1!File2
+Find change time newer than the File1 but older than the File2.
+-type
+Looking for a certain type of file, such as:
+B - block device file.
+D - directory.
+C - character device file.
+P - Pipeline file.
+L - symbolic link file.
+F - General file.
+N:[c] -size to find the file length of N blocks of the file, with C, said the length of the file in bytes. -depth: when you find a file, you first look up the files in the current directory, and then find the file in its sub directory.
+-fstype: find in files of a certain type of file system, the file system type can usually be found in the configuration file in / etc / fstab, the system related to the file system information contained in the configuration file.
+-mount: don't cross file system mount point when looking for files.
+-follow: if the find command is encountered with a symbolic link file, trace the file to the link.
+-cpio: to use the CPIO command for the matching file, back up the files to the tape device.
