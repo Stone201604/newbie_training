@@ -1,0 +1,18 @@
+    Today I had deeplier understood the usage of the linux command "chmod":
+Format  Chmod  permissions  to modify the permissions in the file Linux are as follows:
+r: read; w: write; x: execute.
+-rw------- (600) - only the master has read and write permissions.
+-rw-r--r-- (644) - only the master has read and write permissions, and a group of
+ users and other users only read permissions.
+-rwx------ (700) - only the master has read, write, and execute.
+-rwxr-xr-x (755) - the master has read, write and execute permissions; and a group
+ of users and other users only read and execute permissions.
+-rwx--x--x (711) - the master has read, write and execute permissions, and the 
+group of users and other users only the executive authority.
+-rw-rw-rw- (666) - all users have file read and write permissions. This approach
+ is not desirable.
+-rwxrwxrwx (777) - all users have access to read, write, and execute. More 
+undesirable to do.9 corresponding to the 777 are the main reading, writing, executive
+ authority; and the group of users and other users to read, write and execute permissions.
+Allows a permission on the set of 1777 (8 hex) =111111111 (2 hex), 9 are set one,
+ that is, all rights are open command: Chmod 700 a.c
