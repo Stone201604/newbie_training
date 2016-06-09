@@ -1,0 +1,24 @@
+      An embedded system usually consists of embedded computer system and the 
+implementation of device composition, embedded computer system is the core of 
+the whole embedded system consists of hardware layer, middle layer, the system 
+software layer and application software layer composition. The execution device 
+is also called the controlled object, which can accept the control command issued
+ by the embedded computer system, and the operation or the task is performed. 
+Actuators can be very simple, such as the mobile phone of a micro motor, when the
+ mobile phone is in the vibration receiving state open; can also very complex, 
+such as Sony intelligent machine dog, integrated the above the plurality of micro
+ motor control and a variety of sensors, which can perform a variety of complex 
+actions and feelings of various state information
+     The hardware layer contains embedded microprocessor, memory (SDRAM, ROM, Flash,
+ etc.), universal device interface and I/O interface (A/D, D/A, I/O, etc.). On the 
+basis of an embedded processor, a power supply circuit, a clock circuit and a memory
+ circuit are added to form an embedded core control module. The operating system
+ and the application can be solidified in the ROM.
+     Between the hardware layer and the software layer as middle layer, also known 
+as for the hardware abstraction layer (hardware abstract layer, HAL) or board level
+ support board support package (BSP) package, it will separate from the upper system
+ software and hardware, the underlying system driver and hardware independent, the
+ upper software developers do not need to care about the specific circumstances of
+ the underlying hardware, BSP layer provides the interface can be developed according
+ to the. The layer generally contains the underlying hardware initialization, data 
+input / output operation and the configuration of the hardware device.

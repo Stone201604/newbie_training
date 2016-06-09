@@ -1,0 +1,27 @@
+    Understanding the history of embedded systems today.
+    Since the early 1980s, the embedded systems programmers start with commercial
+ grade "operating system" to compile the embedded application software, which makes 
+it possible to get shorter development cycle, lower development funds and higher 
+development efficiency, "embedded system" really appear. The exact point when the 
+operating system is a real-time kernel, the real-time kernel contains many traditional
+ operating system features, including task management, inter task communication, 
+synchronization and mutual exclusion, interrupt support, memory management, and 
+other functions.
+    Among the more famous are System VRTX company's Integrated, System Incorporation
+ Ready (ISI) PSOS and VxWorks IMG, QNX, QNX, etc.. The embedded operating system is 
+embedded in the typical characteristics: both of them use preemptive scheduling, 
+response time is very short, task execution time can be determined; system kernel is
+ very small, with cutting, expansion and portability and can be transplanted to a 
+variety of processors; strong real-time and reliability, suitable for embedded 
+applications. The emergence of these embedded real-time multi task operating system
+ makes the development of the application developers liberated from the small scale,
+ and also makes the embedded system have a wider application space.
+    Since the 1990s, with the real-time requirements increase, the rising scale of 
+software, real time kernel gradually developed as a software platform for real-time
+ multi task operating system (RTOS) and gradually become the mainstream of the embedded
+ system. At this time, more companies see the broad prospects for the development
+ of embedded systems, began to develop their own embedded operating system. In addition
+ to the above several established companies, but also the emergence of OS Palm, WinCE,
+ embedded Linux, Lynx, Nucleux, as well as the domestic Hopen, Os Delta and other 
+embedded operating system. With the development of embedded technology, more and more
+ extensive, it is believed that there will be more embedded operating system software.
