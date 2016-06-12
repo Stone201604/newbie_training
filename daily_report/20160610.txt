@@ -1,0 +1,18 @@
+    Today I had made some understanding about boot.img:
+    Some of the popular understanding, switch on the mobile phone baseband detection
+ can not to call, and then like a Windows XP computer to you as a selection interface
+, into the system, or a key ghost, of course, the phone is directly into the system,
+ ghost, then you need a push button and then re. At this time the HBOOT has both the
+ BIOS and the system to select the function of the interface, recovery is similar to
+ the function of the ghost.
+    S-off in, whether it is white cards ('ship s-off) or soft solution (Eng s-off), 
+ROM, the boot.img and system together brush into your mobile phone to, this is because
+ of the safety lock is closed, allowing you to change including radio, the first screen,
+ re even HBOOT can. As long as there is something in the ROM, can be used to brush into,
+ do not need separate operation. Cite a simple example, folder through the process to 
+extract the rom.zip inside the RUU file. This file contains the baseband, kernel, re,
+ the first screen, the system and so on almost all mobile phone software, even you
+ can upgrade (i.e. HTC commonly used PXXXX.zip format card brush file), can be used
+ existing HBOOT to update new HBOOT, how do you say this is like you reinstall the 
+XP system a vista system, restart, the XP disappeared into the vista. So, Rom compression
+ package inside the boot in the brush ROM will be together with the brush into.

@@ -1,0 +1,13 @@
+     Today I had made some understanding about boot.img:
+     Simply said, boot.img contains two parts, respectively, kernel and ramdisk.
+ When you start the phone will start the first RADIO, and then SPL. This SPL will 
+according to your keys, determined to enter the which mode (e.g. recovery FastBoot,
+ etc.), if there is no press other keys, then SPL will load the kernel into memory,
+ ramdisk can be loaded into the root directory of your device.
+     I said under the personal understanding, boot.img which contains the kernel
+ memory and data, kernel point like a car's engine, the data memory is similar to
+ boot, the boot after the tell each software what to do, such as the screen is 
+driven to display Boot second screen animation, welcome interface, desktop etc.; 
+sound driver to prepare startup sound and so on. First start radio, and then enter
+ the HBOOT interface, if there is no button, will enter the system directly, there 
+is a button, you will enter the selection interface.
