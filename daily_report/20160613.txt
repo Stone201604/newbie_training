@@ -1,0 +1,16 @@
+   Understand and learn the rewriting of IP address today:
+   Some friends may encounter such a situation, just go to open the computer in 
+the morning, the lower right corner of the computer desk will prompt, your IP 
+conflict. This is what happens, for not a lot of it working personnel is not very
+ understanding, but in any case appear this situation we should how to do? How to
+ modify the IP so that we have to say, to windows7 as an example:
+   The first step: open the control panel, select ¡° the network and Internet"
+   The second step: select ¡° the network and sharing center"
+   The third step: select "change adapter settings"
+   The fourth step: right click you need to modify the configuration of the network 
+connection, select the "property".
+   The fifth step: find and double click "Internet protocol version 4 (TCP/IPv4)"
+   Step six: select "use the following IP address", and then the IP address is 
+changed to be that you want to set the IP address, subnet mask fill 255.255.255.0;
+default gateway fill 192.168.1.1 "choose to use the following DNS server address¡±,
+ first fill 218.74.122.66 sparing fill 218.74.122.74, finally determine it, OK!

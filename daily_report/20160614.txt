@@ -1,0 +1,10 @@
+    Use Linux virtual machines, and sometimes, for example, when the Ping network 
+needs to close the firewall
+    At that time how can not think of the way to close the firewall.
+    Now write down the way to close the Linux firewall:
+    1 immediate effect, after the restart failure
+     Open:service iptables start 
+     Close: service iptables stop 
+    2 after the restart effect
+     Open: chkconfig iptables on 
+     Close: chkconfig iptables off 
