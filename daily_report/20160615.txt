@@ -1,0 +1,34 @@
+   The format and methods of the linux command ¡°chown¡±. name: chown ,access: root
+   Usage: chown [-cfhvR] [--help] [--version] user[:group] file...
+   Use chown to change the owner of the file. This directive is only used by the system
+ manager (root), the general user has no right to change the file owner of someone else,
+ there is no access to their own file owners to other people. Only the system manager 
+(root) has such authority.
+   Parameter: -c or -change: similar to -v, but only part of the modified
+         -f or - quiet or - Silent: do not display error messages
+         -h or - no-dereference: only the symbolic link to the file to do the 
+modification, and do not change any other relevant documents
+         -recursive or -R: recursive processing, will specify the directory of all
+ files and sub directories together
+         -v or - verbose: display instruction execution process
+         - help: display online description
+         - reference=< reference file or Directory >: the owner of the specified 
+file or directory, and the group, are all set to the same as the owner of the 
+reference file or directory.
+         - version: display version information the chown command using, for 
+example: (like with my VPS, we must first SSH login) # chown [-R] [user name]
+ [file or directory] # chown[-R] [user name: group name] [file or directory]
+   Example 1: the test3.txt file is changed to test users.
+   # ls -l test3.txt
+   -rw-r - r - 1 root test 0 2016-6-19 9:59 test3.txt
+   # chowntest:root test3.txt
+   # ls -l test3.txt
+   -rw-r - r - 1 root test 0 2016-6-19 9:59
+   The new genus 2:chown is connected with the new group. The connection, one 
+of the main groups and one group can be empty. If the owner is empty, it should
+ be ": a group"; if the group is empty, ":" you can not bring.
+   # ls -l test3.txt
+   -rw-r - r - 1 root test 0 2016-6-19 9:59 test3.txt 
+   # chown: Test test3.txt <== to group file test3.txt to test
+   # ls -l test3.txt
+   -rw-r - r - 1 test test 0 2016-6-19 9:59 test3.txt

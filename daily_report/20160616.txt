@@ -1,0 +1,15 @@
+    Today I had known some knowledge about LINUX SYSTEM!
+    Linux is a set of free and free use of the class Unix operating system, is a POSIX 
+and UNIX based on multi user, multi tasking, support multi threading and multi CPU 
+operating system. It can run the main UNIX tool software, applications and network 
+protocols. It supports 32 bit and 64 bit hardware. Linux inherits the Unix to the 
+network as the core of the design idea, is a stable performance of the multi user 
+network operating system.
+    Linux operating system was born in October 5, 1991 (this is the first official
+ release of the time). Linux there are many different Linux versions, but they all
+ use the Linux kernel. Linux can be installed in a variety of computer hardware 
+devices, such as mobile phones, tablet computers, routers, video game consoles, desktop
+ computers, mainframe computers and supercomputers.
+    Strictly speaking, the word Linux itself only represents the Linux kernel, but 
+in fact people have been accustomed to using Linux to describe the entire Linux 
+based kernel, and the use of GNU engineering tools and database operating system.

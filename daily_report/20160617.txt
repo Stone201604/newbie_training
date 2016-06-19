@@ -1,0 +1,41 @@
+   Main characteristics
+   basic thought
+   The basic idea of Linux has two points: first, everything is a file; second, 
+every software has a certain purpose. The first detail is all system are attributed
+ to a file, including command, software and hardware, operating system, process,
+ and so on for the operating system kernel, are regarded as have their properties
+ or type of file. As to say that Linux is based on Unix, to a large extent is 
+because the basic idea is very similar.
+   Completely free
+   Linux is a free operating system, users can freely access through the network
+ or other means, and can be arbitrarily modify its source code. This is what 
+other operating systems can't do. It is because of this, from hundreds of thousands
+ of programmers around the world to participate in the modification of the Linux,
+ the preparation work, programmers can according to their own interest and Inspiration
+ of the change, which makes Linux absorbed the essence of countless programmers, 
+continue to grow.
+   Fully compatible with POSIX1.0 standard
+   This makes it possible to run the common DOS, Windows program, in Linux, by means 
+of the corresponding simulator. This laid the foundation for the user to go to Linux
+ from Windows. Many users in the consideration of the use of Linux, it is thought of
+ a common procedure in the Windows before the normal operation, this point to 
+eliminate their doubts.
+   Multi user and multi task
+   Linux supports multiple users, each user has its own special rights for their own
+ file equipment, to ensure that the user does not affect each other. Multiple tasks
+ are now one of the most important features of a computer, Linux can make multiple
+ programs at the same time and run independently.
+   Good interface
+   Linux at the same time with a character interface and graphical interface. In the
+ character interface, the user can input the corresponding instructions to operate
+ the keyboard. It also provides a Windows graphical interface similar to the X-Window
+ system, the user can use the mouse to operate. In the X-Window environment and in 
+the Windows similar, can be said to be a Linux version of the Windows.
+   Support multiple platforms
+   Linux can be run on a variety of hardware platforms, such as x86, 680x0, SPARC,
+ Alpha and other platforms. In addition, Linux is an embedded operating system, 
+which can be run on a handheld PC, set top box or a game console. January 2001 release
+ of the Linux 2.4 version of the kernel has been able to fully support the Intel 64 
+bit chip architecture. At the same time, Linux also supports multi processor technology.
+ Multiple processors simultaneously work, so that the system performance is 
+greatly improved.
