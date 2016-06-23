@@ -1,0 +1,7 @@
+    Use their own Linux to control other people's PC linux:
+    First of all to networking
+    Next input
+    For example:
+    ssh zhou@10.42.97.66 or zhou%4010.42.97.66
+    Copy things from other people's machines to your computer:
+    scp -r filename stone@10.42.97.35:/home/stone

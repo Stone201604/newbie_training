@@ -1,0 +1,6 @@
+     In the process of running bash build_boot_image_CR.sh, met RPMbuild 
+failed! Mainly said that the installation path can not find RVCT.
+Solution: find TC70CR/bsp/rpm_proc/build in build_commom.py, the inside 
+of the rvct_search_paths to add the correct path to RVCT!
+     For example, I Linux in the installation path:
+    /pkg/qct/software/arm/RVDS/4.1BLD713/RVCT/Programs/

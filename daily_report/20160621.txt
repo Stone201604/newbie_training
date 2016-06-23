@@ -1,0 +1,9 @@
+   ~ represents your /home/ user directory
+   If your username is x, then ~/ is /home/x/
+   Is representative of the directory itself, but generally can not write.
+   So cd ~/.and cd~ and cd ~ / and the effect is the same.
+But there is something behind it is another problem, the point in the file name 
+of the head, representing a hidden file.
+   ~/.local is the path to a.Local folder in your home directory, and it can be 
+seen that this is a hiding file, if not -a ls, the general ls is not able to 
+see it.
