@@ -1,0 +1,20 @@
+    Android is a free and open source operating system based on Linux, mainly 
+used in mobile devices, such as smart phones and tablet PCs, led by Google and
+ open mobile phone alliance and development. There is not yet a unified Chinese
+ name, the Chinese mainland area more people use Android or security". Android
+ operating system was originally developed by Rubin Andy, the main support for
+ mobile phone. August 2005 by the acquisition of Google injection. In November 
+2007, Google and 84 hardware manufacturers, software developers and telecom 
+operators form the Open Handset Alliance Joint Research and development to 
+improve the Android system. Then Apache open source license Google license, 
+released the Android source code. The first Android smartphone was released 
+in October 2008. Android is gradually extended to the tablet PC and other fields,
+ such as TV, digital camera, game machine, etc.. The first quarter of 2011, 
+Android for the first time exceeded the Symbian system in the global market share, 
+ranked first in the world. In the fourth quarter of 2013, the global market share
+ of mobile phone Android platform has reached 78.1%. [1] 2013 09, 24,, the 
+operating system Android developed in ushered in the 5 year old birthday, the 
+world's number of devices using this system has reached 1 billion units.
+    2014 first quarter Android platform has accounted for 42.8% of all mobile
+ advertising traffic sources, for the first time beyond iOS. But operating 
+income is less than iOS.

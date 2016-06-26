@@ -1,0 +1,13 @@
+  Reproduced, and hope to help to everyone, but also thank you to provide the
+solution to a friend.
+Solve the difficulties of domestic access to Google server:
+1 start SDK Manager Android;
+2 open the main interface, in order to select the "Tools", "Options... "Pop up
+" SDK Manager Android - Settings "window;
+3 in the "SDK Manager Android - Settings" window, in the "Proxy Server HTTP" and 
+"Proxy Port HTTP" input box to fill in the box
+Into mirrors.neusoft.edu.cn and 80, and select "https:// Force"... To be fetched 
+using http:// sources... "Check box;
+4 after the completion of the completion of the "Close" button to close the "SDK 
+Manager Android - Settings" window to return to the main interface;
+5 select "Packages" and "Reload" in turn.
