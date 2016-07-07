@@ -1,0 +1,11 @@
+   Unique characteristics
+   C language is a structured programming, with variable scope of action (scope 
+variable) and recursive function of the process language.
+   C language transfer parameters are by value (pass), the other can also pass 
+the pointer (pointer passed a value by).
+   Different variable types can be combined with the structure (struct).
+   Only 32 reserved words (keywords reserved), so that variables, the name of
+the function is more flexible.
+   Partial variable types can be converted, such as integer and character variables.
+   Through the pointer (pointer), C language can be easy to low-level control of memory.
+   Pre compiled processing (preprocessor) so that the C language compiler more flexible.

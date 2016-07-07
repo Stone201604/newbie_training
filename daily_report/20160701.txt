@@ -1,0 +1,32 @@
+   Basic composition
+   data type
+   C data types include: integer, character type, real or floating point type 
+(single precision and double precision), enumeration type, array type, structure
+ type, common body type, pointer type and null type. 
+   Constant and Variable
+   A constant whose value cannot be changed, the symbolic constant name is commonly
+ used in capital letters.
+   A variable is a name whose value can be changed by an identifier. An identifier
+ is a sequence of letters, numbers, or underscores that begin with a letter or 
+underscore. Note that the first character must be a letter or underscore, otherwise
+ the name is not valid. The corresponding storage unit is assigned to the variable
+ at compile time.
+   array
+   If a variable name is followed by a number of brackets, the declaration is an 
+array of. String is an array of. They ended with NULL's ASCII as an array. Special 
+attention should be paid to the value of the index within the index, which is 
+calculated from the 0. 
+   Pointer
+   If a variable declaration is used in the preceding * *, this is a pointer type 
+variable. In other words, the variable stores an address, and * (here refers to the
+ single target operator *, the same below. C language, and other binocular operator *)
+ is to take the content operator, which means to take the contents of the memory 
+address in the memory. Pointer is one of the main features of C language which is 
+different from other advanced languages in the same time. 
+   Pointer can be not only the address of a variable, but also the address of an 
+array, an array element, and a function. Through the pointer as a form parameter 
+can be in the function of the call process to get more than a return value, different
+ from return (z) so that only a return value can be obtained.
+   Pointer is a double-edged sword, and many operations can be naturally expressed by
+ the pointer, but the incorrect or excessive use of the pointer will give the program
+ a lot of potential errors. 

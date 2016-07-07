@@ -1,0 +1,27 @@
+   Language features
+   Basic characteristics
+   1, high-level language: it is the basic structure of the advanced language and
+ the language of the basic structure and the combination of the work unit.  
+   2, structural language: structural language is a significant feature of the 
+separation of the code and data, that is, the various parts of the program in 
+addition to the necessary information to communicate with each other independent.
+ This structured approach can make the program level clear, easy to use, maintain
+ and debug. C language is provided to the user in the form of function, these
+ functions can be easily called, and has a variety of circulation, conditional 
+statements control program flow, so that the program is fully structured.
+   3, code level cross platform: as a result of the existence of standards, 
+making almost the same C code can be used for a variety of operating systems,
+ such as Windows, DOS, UNIX, etc., also applies to a variety of models. C 
+language for the preparation of the need for hardware operation of the occasion,
+ better than other high-level language.
+   4, the use of pointers: you can directly close to the hardware operation, but
+ the C pointer operation is not done, but also to bring a lot of unsafe factors.
+ C + + in this area has been improved, while retaining the pointer operations at
+ the same time and enhance the safety, supported by some users, however, because 
+of the complexity of these improvements increase language, another part is criticized.
+ Java learned the lessons of C + +, cancel the pointer operation, also cancelled to
+ improve c + + in some controversial place, and good results are obtained in the 
+safety and suitability, but its interpretation is running in the virtual machine,
+ operating efficiency is lower than that of C / C. Generally speaking, C, C++, and
+ Java are regarded as the same language, they have long occupied the top three of
+ the list.

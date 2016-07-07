@@ -1,0 +1,12 @@
+   C language is a general-purpose computer programming language, a wide range
+ of applications. The design goal of the C language is to provide a programming 
+language that can be compiled, processed in a simple manner, produced a small 
+amount of machine code, and can run without any runtime environment support.
+   In spite of the C language provides many lower level processing function, 
+but still maintained a good cross platform characteristic, written in a standard
+ C language program can be compiled on many computer platforms, even including 
+some embedded processor (MCU or MCU) and super computer operation platform.
+   In the eighties of the twentieth century, in order to avoid the manufacturer
+ with the C language syntax differences, by the United States National Bureau 
+of standards for the C language stipulate the a complete set of international 
+standard grammar, said to ANSI C, as the first standard for the C language.

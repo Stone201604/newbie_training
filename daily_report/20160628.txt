@@ -1,0 +1,15 @@
+   At first, there was no official standard for the C language. 1978 by the Att
+ Corporation (AT&amp;T) Baer laboratory officially published the C language. 
+Brian Colin Han (Kernighan Brian) and Dennis Rich (Ritchie Dennis) published a 
+book called "C Programming Language The". This book is called K&amp;R by the C 
+language developers for many years as an informal standard of C language. People
+ call this version of the C language C K&amp;R. [3]
+   C K&amp;R mainly introduces the following features:
+   Structure (struct) type
+   Long integer (int long) type
+   Unsigned integer (int unsigned) type
+   The operator made and changed to + = and = =. Because the structure and makes
+ the compiler does not know the user = I = -10 to I = 10 or so, on the confusion.
+   Even after the C ANSI standard was proposed for many years, C K&amp;R is still
+ the most accurate requirement for many compilers, and many older compilers still
+ run the C K&amp;R standard.
