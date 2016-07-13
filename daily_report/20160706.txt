@@ -1,0 +1,13 @@
+   System runtime
+   Android contains a number of C/C++ libraries, which can be used by different 
+components of the Android system. They provide services to developers through 
+the Android application framework. Here are some of the core libraries:
+   * system C Library - a standard C system function library Libc inherited from 
+BSD, which is specifically designed for Linux Embedded based devices.
+   * media library - based on OpenCORE PacketVideo; the library supports a variety
+ of commonly used audio, video format playback and recording, while supporting the
+ static image file. Encoding formats include MPEG4, H.264, MP3, AAC, AMR, JPG, PNG.
+   * Manager Surface - management of the display subsystem, and provides seamless
+ integration of 2D and 3D layers for multiple applications.
+   * LibWebCore - a new web browser engine that supports Android browsers and an
+ embedded web view.

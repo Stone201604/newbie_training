@@ -1,0 +1,10 @@
+    Android before the official release, the beginning has two internal test version,
+ and in the name of the famous robot to its name. They are: Astro Boy (AndroidBeta) 
+clockwork robot (Android 1.0). Later, due to copyright issues involved, Google changed
+ its naming rules to use dessert as their system version of the code naming method. 
+Dessert naming begins when Android 1.5 is released. As the size of each version 
+represents the dessert getting bigger, then in accordance with the 26 alphabetical
+ order: cupcakes (Android 1.5), donut (Android 1.6), Muffin (Android 2.0/2.1), 
+frozen yogurt (Android 2.2), gingerbread (Android 2.3), honeycomb (Android 3.0),
+ ice cream sandwich (Android 4.0), jelly beans, jelly bean, android4.1 to Android 
+and the 4.2).

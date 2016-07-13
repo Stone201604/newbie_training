@@ -1,0 +1,16 @@
+   System kernel
+   Android is running on top of kernel Linux, but not GNU/Linux. Because in general 
+GNU/Linux support function, Android are not supported, including Cairo, X11, Alsa, 
+FFmpeg, GTK, Pango and Glibc are removed from the. Android to replace Bionic with 
+Glibc, Skia to replace the Cairo, and then replaced by FFmpeg and so on opencore.
+ Android in order to achieve commercial applications must be removed the GNU GPL 
+permit the constraint part, such as Android driver moved to userspace, the linux 
+driver and the Linux kernel completely separate. Bionic/Libc/Kernel/ is not the 
+standard header files Kernel. Kernel header Android is a tool used by the Kernel 
+header Linux generated, so do it in order to retain the constant, data structure
+ and macros.
+   Android Linux kernel control including security, memory management memory 
+management, program management (process management), network (network stack, the 
+stack, driving program (driver model) model. Before downloading the Android source 
+code, you must first install the construction tool Repo to initialize the source 
+code. Repo is a tool used to assist Git work in Android.

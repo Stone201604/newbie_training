@@ -1,0 +1,28 @@
+    Android system architecture and its operating system, the use of a layered 
+architecture.
+From the perspective of architecture, Android is divided into four layers, from
+ the top to the low layer is the application layer, application framework layer, 
+the system runs the library layer and the Linux kernel layer.
+    Application program
+Android together with a series of core application package release, the application 
+package includes the client, SMS short message program, calendar, maps, browser, 
+contacts management program, etc.. All applications are written using the JAVA 
+language.
+    Application framework
+Developers can also complete access to the API framework used by the core 
+application. The application of architecture design simplifies the component
+ reuse; any application can be released its function block and any other 
+applications can use function block of the issued but must follow the framework
+ of security). Similarly, the application reuse mechanism also allows users to
+ easily replace the program components.
+    Hidden behind each application is a series of services and systems, including:
+    A rich and extensible view that can be used to build applications that include 
+lists, grids, text boxes, buttons, and even embedded web browsers.
+    The content provider allows applications to access data from another application, 
+such as a contact database, or to share their own data
+    Resource manager provides access to non code resources, such as local strings,
+ graphics, and layout files.
+    Notification manager allows an application to display a custom prompt message
+ in the status bar.
+    Activity manager to manage the application life cycle and provides a common 
+navigation rollback function.
